@@ -1,0 +1,94 @@
+*{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-family: century;
+
+
+}
+header{
+
+	background-image:url(./apple.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 55px;
+
+}
+
+.MAC a{
+    color: #070707;
+    padding: 0px 40px;
+    position: absolute;
+    top: 10px;
+    left: 10px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900 ;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    margin-top: 5px;
+    word-spacing: 5px; 
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    background: #fdfdfd;
+    color:black;
+    border: 2px solid #000000; /* Bordure du bouton */
+    border-radius: 5px; /* Bordure arrondie du bouton */
+    text-decoration: none;
+}
+
+ul li:hover a{
+    background: #b75656;
+    color:#000000;
+    border: 2px solid #fffefe; /* Bordure du bouton */
+    border-radius: 5px; /* Bordure arrondie du bouton */
+    transition: background-color 0.3s, color 0.3s; /* Animation de transition */
+    }
+    
+    .connect {
+        padding: 80px;
+    }
+
+.pricipale{
+    max-width: 114rem;
+    margin: 0 auto ;
+}
+
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.taille{
+    width:50%;
+}
+
+ul li.btn a{
+    background: #030303;
+    color:#fdfdfd;
+}
+
+ul.bxtn1{
+    list-style: none;
+    float: left;
+    display: flex;
+    margin-top: 99px;
+    margin-left: 150px;
+    font-size: 15px;
+}
+
+

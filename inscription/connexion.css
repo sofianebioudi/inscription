@@ -1,0 +1,109 @@
+* {
+    padding: 5;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    background-image: url(../Images/fond/iphone3.jpg);
+    height: 96vh; /* Réglage de la hauteur pour qu'elle couvre entièrement l'écran */
+    background-size: cover ; /* Ajuster la taille de l'image pour couvrir entièrement le conteneur */
+    background-position: center; /* Positionnement de l'image au centre */
+}
+
+header {
+    height: 20vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.principale {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.mac {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mac a {
+color: #ffffff;
+padding: 8px 4px;
+text-transform:lowercase ;
+text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+    margin-top: 5px;
+    word-spacing: 5px; 
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a {
+    background: #fdfdfd;
+    color:black;
+    border: 2px solid #000000; /* Bordure du bouton */
+    border-radius: 5px; /* Bordure arrondie du bouton */
+    text-decoration: none;
+}
+
+ul li:hover a{
+    background: #b75656;
+    color:#000000;
+    border: 2px solid #fffefe; /* Bordure du bouton */
+    border-radius: 5px; /* Bordure arrondie du bouton */
+    transition: background-color 0.3s, color 0.3s; /* Animation de transition */
+    }
+    
+    .connect {
+        padding: 80px;
+    }
+
+    .formulaire {
+        color: #ffffff;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: medium;
+        margin-top: 35px;
+        width: 80%;
+        max-width: 250px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.277);
+        text-align: center; /* Centrer le contenu du formulaire */
+        height: auto;
+    }
+    
+    input {
+        margin-bottom: 20px;
+    }
+
+    input[type="submit"] {
+        background-color: #b75656; /* Couleur de fond du bouton */
+        color: #000000; /* Couleur du texte du bouton */
+        border: 2px solid #000000; /* Bordure du bouton */
+        padding: 10px 20px; /* Espacement interne du bouton */
+        border-radius: 5px; /* Bordure arrondie du bouton */
+        cursor: pointer; /* Curseur de type pointeur */
+        transition: background-color 0.3s, color 0.3s; /* Animation de transition */
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #fdfdfd; /* Couleur de fond au survol */
+        color: #000000; /* Couleur du texte au survol */
+    }
